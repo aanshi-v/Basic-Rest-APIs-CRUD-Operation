@@ -1,0 +1,24 @@
+
+Post:  localhost:8080/crud/users/createUser
+{
+    "name" : "xyz",
+    "email" : "xyz@gmail.com"
+}
+
+Get:  localhost:8080/crud/users/getAllUsers
+
+Get:  localhost:8080/crud/users/getUserById/2
+
+Put:  localhost:8080/crud/users/updateUser/2
+{
+    "name" : "abc",
+    "email" : "abc@gmail"
+}
+
+
+Patch:  localhost:8080/crud/users/patchUser/2
+{
+    "name" : "pqr"
+}
+
+Delete:  localhost:8080/crud/users/deleteUser/3
